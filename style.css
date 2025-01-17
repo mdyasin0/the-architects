@@ -78,6 +78,9 @@ nav li a{
     margin-right:20px ;
     
 }
+.Features{
+    margin-top: 10px;
+}
 .our-features h1{
  font-size:2rem;
  font-weight:500px ;
@@ -178,6 +181,41 @@ nav li a{
 
 .facts-all-cards{
     display: flex;
-    gap:65px;
+    gap:60px;
+    margin-left: 20px;
    
+}
+
+/* spospors */
+.sponspors{
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.spospors h1{
+ font-size: 3rem;
+ font-weight: bold;
+ margin-bottom: 30px;
+}
+.sponspors p{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.company{
+    display: flex;
+}
+.company img{
+    width: 100px;
+    filter: grayscale(100%);
+}
+footer{
+    max-width:1000px;
+    border-radius: 3px;
+    background-color:rgb(245, 208, 164) ;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 5px;
+    font-size: 1.3rem;
 }
